@@ -11,11 +11,11 @@ import com.curso.diccionarios.gestion.respuesta.diccionario.ErrorAlObtenerDiccio
 import com.curso.diccionarios.gestion.respuesta.diccionario.RespuestaDiccionario;
 import com.curso.diccionarios.gestion.SuministradorDeDiccionarios;
 import com.curso.diccionarios.gestion.Diccionario;
-public class SuministradorDeDiccionariosRest implements SuministradorDeDiccionarios {
+public class SuministradorDeDiccionariosBBDD implements SuministradorDeDiccionarios {
 
     private String rutaServidor;
 
-    public SuministradorDeDiccionariosRest(String rutaServidor) {
+    public SuministradorDeDiccionariosBBDD(String rutaServidor) {
         this.rutaServidor = rutaServidor;
     }
 
